@@ -309,7 +309,7 @@ That’s it! You have successfully deployed **AgentCore Memory** and updated you
 
 Here is the updated architecture:
 
-![AgentCore Memory Architecture](lab2_architecture_diagram.png)
+![AgentCore Memory Architecture](images/lab2_architecture_diagram.png)
 ## [Step 5: Test Memory — Teach Your Agent About You](https://catalog.us-east-1.prod.workshops.aws/event/dashboard/en-US/workshop/30-lab2-memory#step-5:-test-memory-teach-your-agent-about-you)
 
 Now let's test that memory works across sessions. Since the updated `main.py` expects a `session_id` and `user_id` on every invocation, we need to pass both:
