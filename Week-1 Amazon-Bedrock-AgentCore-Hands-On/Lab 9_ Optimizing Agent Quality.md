@@ -19,13 +19,6 @@ This lab uses everything you've already built. You'll optimize the exact `Custo
 AgentCore Optimization connects evaluation findings to validated improvements through a repeatable cycle:
 
 ```bash
-1
-2
-3
-4
-5
-6
-7
 1. Generate a recommendation   → point the service at traces + a target evaluator
                                   → get an optimized system prompt or tool descriptions
 2. Package as a config bundle   → a versioned, immutable snapshot of the config
@@ -58,10 +51,6 @@ agentcore update
 **2. Confirm the AgentCore SDK is 1.8 or later.** Open `app/CustomerSupport/pyproject.toml` and make sure the dependency is at least `1.8.0` (the A/B testing baggage propagation and `get_config_bundle()` API require it):
 
 ```toml
-1
-2
-3
-4
 dependencies = [
     "bedrock-agentcore >= 1.8.0",
     # ... your existing dependencies
@@ -76,18 +65,6 @@ dependencies = [
 - **Windows**
 
 ```bash
-1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
 COGNITO_WEB_CLIENT_ID=$(aws ssm get-parameter \
   --name /app/customersupport/agentcore/web_client_id \
   --query 'Parameter.Value' --output text)
@@ -153,14 +130,6 @@ Now ask AgentCore to analyze your traces and propose a better system prompt. You
 - **Windows**
 
 ```bash
-1
-2
-3
-4
-5
-6
-7
-8
 agentcore run recommendation \
   --type system-prompt \
   --run cs-prompt-rec \
@@ -203,12 +172,6 @@ Save the recommended system prompt to an environment variable — you'll use it 
 - **Windows**
 
 ```bash
-1
-2
-3
-4
-5
-6
 REC_ID=$(agentcore view recommendation --json | jq -r '.recommendations[0].id')
 RECOMMENDED_PROMPT=$(agentcore view recommendation --json | jq -r '.recommendations[0].result.systemPromptRecommendationResult.recommendedSystemPrompt')
 
@@ -231,15 +194,6 @@ Pass your current tool names and descriptions (from Lab 1's `@tool` docstrings
 - **Windows**
 
 ```bash
-1
-2
-3
-4
-5
-6
-7
-8
-9
 agentcore run recommendation \
   --type tool-description \
   --run cs-tool-rec \
