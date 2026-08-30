@@ -1,4 +1,3 @@
-```md
 # 6-Week Agentic AI Learning Program
 
 ## Week 1: Anatomy of an AI Agent
@@ -59,4 +58,3 @@
 | 4 | Authentication, Authorization, and Logging | — | 0% |
 | 5 | Agentic AI Evaluation and Observability | — | 0% |
 | 6 | AI Governance on AWS | — | — |
-```
