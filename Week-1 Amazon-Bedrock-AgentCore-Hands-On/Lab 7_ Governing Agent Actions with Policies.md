@@ -312,7 +312,7 @@ agentcore deploy -y -v
 
 After completing this lab, your architecture includes AgentCore Policy enforcement at the Gateway boundary:
 
-![Lab 7 Architecture](lab7_architecture_diagram.png)
+![Lab 7 Architecture](images/lab7_architecture_diagram.png)
 
 ## [Why this matters](https://catalog.us-east-1.prod.workshops.aws/event/dashboard/en-US/workshop/80-lab7-policies#why-this-matters)
 
