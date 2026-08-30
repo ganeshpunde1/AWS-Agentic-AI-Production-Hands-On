@@ -84,7 +84,7 @@ Claude Sonnet 4.6
 
 At this point, your local architecture looks like this: an agent with two custom tools and an MCP-connected web search, all running on your machine.
 
-![Local Agent Architecture](lab1_architecture_diagram.png)
+![Local Agent Architecture](/images/lab1_architecture_diagram.png)
 ---
 
 # Step 1: Create the Project
@@ -966,7 +966,7 @@ before invoking the cloud-deployed agent.
 
 Your agent is no longer running on your local machine. It is now deployed to **AgentCore Runtime** in AWS and accessible through a managed endpoint.
 
-![Updated AgentCore Runtime Architecture](lab1_updated_architecture_diagram.png)
+![Updated AgentCore Runtime Architecture](/images/lab1_updated_architecture_diagram.png)
 # Skills Learned
 
 After completing this lab, you should understand:
