@@ -216,7 +216,7 @@ Agents operate in a continuous cycle of reasoning and action. This loop enables 
 5. **Repeat or Complete** – Continue the loop or return final results
 
 Flowchart showing the agentic reasoning loop: reason, select tool, execute, update context, and repeat or complete
-![Agentic Reasoning Loop](agentic_loop.png)
+![Agentic Reasoning Loop](images/agentic_loop.png)
 
 ---
 
@@ -234,7 +234,7 @@ Each agent has three core traits that enable intelligent behavior:
 - **Memory** – How the agent maintains context across steps and interactions
 - **Tools** – The actions the agent can take to interact with data and services
 
-![Agent Components - Personality, Memory, and Tools](AgentExplanation.png)
+![Agent Components - Personality, Memory, and Tools](images/AgentExplanation.png)
 
 ---
 
