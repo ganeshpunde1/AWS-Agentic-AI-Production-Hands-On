@@ -863,7 +863,7 @@ If you've started a new terminal session and lost the environment variables, re-
 
 After completing this lab, your deployed architecture looks like this:
 
-![Lab 4 Secured and Observable AgentCore Architecture](lab4_architecture_diagram.png)
+![Lab 4 Secured and Observable AgentCore Architecture](images/lab4_architecture_diagram.png)
 
 > ***Observability still works as before.**** Adding JWT authentication doesn't change how traces, logs, and metrics are collected. AgentCore Runtime continues to instrument every invocation with OpenTelemetry automatically. The only difference is that unauthenticated requests are now rejected before they reach your agent code, so you'll only see traces for legitimate, authorized calls.*
 
