@@ -474,7 +474,7 @@ Click **Open in Browser**.
 
 This opens the frontend through the Code Editor's built-in port forwarding.
 
-![Code Editor port forwarding notification](lab6_browser_notification.png)
+![Code Editor port forwarding notification](images/lab6_browser_notification.png)
 
 ### Refreshing Frontend Changes in Code Editor
 
@@ -525,7 +525,7 @@ The chat interface loads immediately — no login is required.
 
 The server already authenticated as `workshopuser@example.com` on startup and injected the access token into the page.
 
-![Chat interface running in the browser](lab6_chat_interface.png)
+![Chat interface running in the browser](images/lab6_chat_interface.png)
 
 ## [Step 5: Test the Interface](https://catalog.us-east-1.prod.workshops.aws/event/dashboard/en-US/workshop/70-lab6-frontend#step-5:-test-the-interface)
 
