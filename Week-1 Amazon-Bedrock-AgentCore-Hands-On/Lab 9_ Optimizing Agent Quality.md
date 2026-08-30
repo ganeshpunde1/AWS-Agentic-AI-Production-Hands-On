@@ -114,27 +114,6 @@ Since Lab 8 added a Harness agent to your project, `agentcore invoke` no longe
 - **Windows**
 
 ```bash
-1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-16
-17
-18
-19
-20
-21
 SESSION_OPT=$(python3 -c 'import uuid; print(uuid.uuid4())')
 
 # Clear product question
