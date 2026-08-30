@@ -257,7 +257,7 @@ agentcore resume online-eval QualityMonitor
 
 After completing this lab, your deployed architecture includes continuous evaluation:
 
-![Lab 5 Architecture](lab5_architecture_diagram.png)
+![Lab 5 Architecture](images/lab5_architecture_diagram.png)
 
 ## [Congratulations! ✅](https://catalog.us-east-1.prod.workshops.aws/event/dashboard/en-US/workshop/60-lab5-evals#congratulations!)
 
