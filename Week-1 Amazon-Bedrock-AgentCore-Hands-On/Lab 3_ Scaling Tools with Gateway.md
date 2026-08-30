@@ -49,7 +49,7 @@ Lab 3 (Gateway + Local):
 
 The architecture below shows how the Customer Support agent uses **AgentCore Gateway** to access the warranty-check Lambda function while keeping the existing local tools and Exa AI MCP integration.
 
-![Lab 3 AgentCore Gateway Architecture](lab3_architecture_diagram.png)
+![Lab 3 AgentCore Gateway Architecture](images/lab3_architecture_diagram.png)
 
 ## Step 1: Verify the AWS Lambda Function
 
