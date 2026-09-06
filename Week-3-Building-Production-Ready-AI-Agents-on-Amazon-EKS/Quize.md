@@ -1,4 +1,4 @@
-# Amazon EKS, Kubernetes, and AI Workloads — 20 Questions
+#  🧠 Amazon EKS, Kubernetes, and AI Workloads — 20 Questions
 
 ## Question 1 of 20
 
@@ -7,7 +7,7 @@
 ### Options
 1. They replace the need for a container orchestrator
 2. They automatically tune model hyperparameters
-3. **They package complex, rapidly changing software dependencies into a consistent, portable deployment unit**
+3. **✅They package complex, rapidly changing software dependencies into a consistent, portable deployment unit**
 4. They eliminate the need for any hardware
 
 ### Correct Answer
@@ -33,7 +33,7 @@ Think of a container as a ready-to-run box containing everything the AI applicat
 ### Options
 1. A serverless compute service
 2. A managed cloud database service
-3. **An open-source platform for orchestrating containerized applications**
+3. **✅An open-source platform for orchestrating containerized applications**
 4. A GPU hardware accelerator from AWS
 
 ### Correct Answer
@@ -54,7 +54,7 @@ Think of Kubernetes as a manager for containers.
 
 ## Question 3 of 20
 
-**In the airport analogy for a Kubernetes cluster, what does the Air Traffic Controller represent?**
+**✅In the airport analogy for a Kubernetes cluster, what does the Air Traffic Controller represent?**
 
 ### Options
 1. Pods
@@ -88,7 +88,7 @@ Think of the Control Plane as the brain of Kubernetes.
 1. The component that coordinates and manages the cluster
 2. A type of storage volume attached to worker nodes
 3. The hardware server providing compute capacity
-4. **The smallest deployable unit that runs the actual application workload**
+4. **✅The smallest deployable unit that runs the actual application workload**
 
 ### Correct Answer
 **The smallest deployable unit that runs the actual application workload**
@@ -113,7 +113,7 @@ Think of a Pod as a small box that holds and runs your application container.
 ### Options
 1. AWS automatically assigns GPUs without any Kubernetes configuration
 2. The developer manually assigns a GPU server IP in the deployment config
-3. **The manifest declares the GPU resource requirement and Kubernetes selects a suitable worker node**
+3. **✅The manifest declares the GPU resource requirement and Kubernetes selects a suitable worker node**
 4. The application code explicitly picks a GPU worker node at runtime
 
 ### Correct Answer
@@ -136,7 +136,7 @@ Kubernetes then looks for a worker node with an available GPU and schedules the 
 
 ### Options
 1. It increases GPU clock speed for AI inference
-2. **It allows multiple Pods to share a single GPU by taking turns using it over time**
+2. **✅It allows multiple Pods to share a single GPU by taking turns using it over time**
 3. It migrates GPU workloads between regions automatically
 4. It splits a physical GPU into fully isolated hardware partitions
 
@@ -162,7 +162,7 @@ Think of it like several people sharing one computer by taking turns.
 1. Time Slicing can only be used with CPUs, not GPUs
 2. MIG is cheaper than Time Slicing
 3. MIG is a software feature; Time Slicing is a hardware feature
-4. **MIG partitions the GPU into isolated hardware slices; Time Slicing shares the GPU by alternating access over time**
+4. **✅MIG partitions the GPU into isolated hardware slices; Time Slicing shares the GPU by alternating access over time**
 
 ### Correct Answer
 **MIG partitions the GPU into isolated hardware slices; Time Slicing shares the GPU by alternating access over time**
@@ -188,7 +188,7 @@ Think of MIG as separate apartments in one building and Time Slicing as people s
 
 ### Options
 1. Networking & multi-AZ resilience
-2. **Automatic model fine-tuning**
+2. **✅Automatic model fine-tuning**
 3. Cluster security & compliance
 4. Control plane setup & upgrade
 
@@ -213,7 +213,7 @@ Automatic model fine-tuning is an AI/ML task, not a Kubernetes management challe
 **How does Amazon EKS address the "Control plane setup & upgrade" challenge of Kubernetes?**
 
 ### Options
-1. **EKS runs and manages the control plane with multi-AZ support, auto-patching, and an SLA, so teams just consume the API**
+1. **✅EKS runs and manages the control plane with multi-AZ support, auto-patching, and an SLA, so teams just consume the API**
 2. EKS removes the need for a control plane entirely
 3. EKS replaces Kubernetes with a proprietary orchestrator
 4. EKS delegates control plane management to the customer's on-premises team
@@ -240,7 +240,7 @@ AWS handles areas such as availability, multi-AZ support, patching, maintenance,
 
 ### Options
 1. Reduce the number of replicas to free resources
-2. **Scale the workload first (Pod Scaling), then add infrastructure (Node Scaling) if more capacity is needed**
+2. **✅Scale the workload first (Pod Scaling), then add infrastructure (Node Scaling) if more capacity is needed**
 3. Migrate the workload to a serverless function
 4. Immediately provision new GPU worker nodes
 
@@ -265,7 +265,7 @@ If the existing worker nodes do not have enough CPU, memory, or GPU resources, t
 ### Options
 1. A read-only snapshot of cluster metrics
 2. The maximum number of Pods that can ever be scheduled on a cluster
-3. **The declared configuration of what should be running, which Kubernetes continuously works to maintain**
+3. **✅The declared configuration of what should be running, which Kubernetes continuously works to maintain**
 4. The current actual state reported by worker nodes
 
 ### Correct Answer
@@ -294,7 +294,7 @@ Kubernetes starts another Pod so that:
 
 ## Question 12 of 20
 
-**Why are AI agent workloads considered different from traditional application workloads on Kubernetes?**
+**✅Why are AI agent workloads considered different from traditional application workloads on Kubernetes?**
 
 ### Options
 1. **Agent workloads can be dynamic and long-running, unlike typical short-lived stateless requests**
@@ -324,7 +324,7 @@ AI agents may think, call tools, query databases, call APIs, wait for results, a
 
 ### Options
 1. The Pod's container image is too large to pull
-2. **None of the existing worker nodes have a GPU that satisfies the Pod's resource request**
+2. **✅None of the existing worker nodes have a GPU that satisfies the Pod's resource request**
 3. The Pod manifest is missing a namespace declaration
 4. The Kubernetes Control Plane is unavailable
 
@@ -349,8 +349,8 @@ If no suitable GPU is available, the Pod stays in Pending state.
 **Which of the following are ways Amazon EKS helps with Kubernetes challenges? (Select TWO)**
 
 ### Options
-1. **EKS integrates with IAM and is certified for standards like SOC, HIPAA, and PCI**
-2. **EKS runs and manages the control plane with multi-AZ support and auto-patching**
+1. **✅EKS integrates with IAM and is certified for standards like SOC, HIPAA, and PCI**
+2. **✅EKS runs and manages the control plane with multi-AZ support and auto-patching**
 3. EKS replaces containers with virtual machines for AI workloads
 4. EKS automatically writes and deploys application code for AI agents
 
@@ -375,8 +375,8 @@ Amazon EKS helps with security, compliance, reliability, and Kubernetes control 
 **Which of the following statements about Pod Scaling and Node Scaling on EKS are correct? (Select TWO)**
 
 ### Options
-1. **Dynamic or unpredictable workloads often need both layers of autoscaling**
-2. **Pod and Node scaling are complementary, not competing approaches**
+1. **✅Dynamic or unpredictable workloads often need both layers of autoscaling**
+2. **✅Pod and Node scaling are complementary, not competing approaches**
 3. Pod scaling increases the number of physical worker nodes
 4. Node scaling should always be triggered before Pod scaling
 
@@ -403,7 +403,7 @@ They work together.
 **A machine learning team has three inference workloads with strict latency SLAs that must not be affected by each other's GPU memory usage. Which GPU sharing strategy should they use on their Kubernetes nodes?**
 
 ### Options
-1. **Multi-Instance GPU (MIG) — it partitions the GPU into isolated hardware slices with dedicated memory**
+1. **✅Multi-Instance GPU (MIG) — it partitions the GPU into isolated hardware slices with dedicated memory**
 2. Increase the number of GPU nodes so each workload gets its own node
 3. Pod anti-affinity rules to place workloads on separate CPU nodes
 4. GPU Time Slicing — it alternates GPU access so workloads never overlap
@@ -432,7 +432,7 @@ MIG divides one physical GPU into separate hardware sections. Each workload gets
 
 ### Options
 1. Kubernetes automatically reduces the desired replica count to 2 to match the actual state
-2. **Kubernetes continuously reconciles and reschedules the missing Pod on a healthy worker node**
+2. **✅Kubernetes continuously reconciles and reschedules the missing Pod on a healthy worker node**
 3. Kubernetes scales down the remaining 2 Pods to prevent resource contention
 4. Kubernetes waits for the failed node to recover before rescheduling the Pod
 
@@ -468,7 +468,7 @@ This automatic correction is called **reconciliation**.
 1. AWS Fargate — it provisions serverless compute for each Pod
 2. EKS Control Plane autoscaling
 3. Managed Node Groups with manual scaling policies
-4. **Karpenter — it automates just-in-time node provisioning and removal based on pending Pod requirements**
+4. **✅Karpenter — it automates just-in-time node provisioning and removal based on pending Pod requirements**
 
 ### Correct Answer
 **Karpenter — it automates just-in-time node provisioning and removal based on pending Pod requirements**
@@ -493,7 +493,7 @@ So Karpenter helps with automatic provisioning, removal, and cost savings.
 **A team needs full control over their model serving stack, wants to use a custom open-source LLM on Inferentia chips, and is comfortable with high operational overhead. Which Agentic AI pattern on EKS should they choose?**
 
 ### Options
-1. **Strategy 1: Self-Managed on Kubernetes — uses vLLM on EKS with Inferentia/GPU**
+1. **✅Strategy 1: Self-Managed on Kubernetes — uses vLLM on EKS with Inferentia/GPU**
 2. Strategy 3: Fully Managed — uses Amazon Bedrock for all components
 3. Strategy 2 with a custom SageMaker endpoint replacing Bedrock
 4. Strategy 2: Integrated — uses Amazon Bedrock via LiteLLM proxy
@@ -520,7 +520,7 @@ That matches a self-managed Kubernetes strategy.
 
 ### Options
 1. Immediately add more worker nodes to increase infrastructure capacity
-2. **Scale out the Pods (Pod Scaling / HPA) to utilise the remaining worker node capacity**
+2. **✅Scale out the Pods (Pod Scaling / HPA) to utilise the remaining worker node capacity**
 3. Reduce the number of Pods to free up CPU per Pod
 4. Switch to a serverless function to avoid capacity planning altogether
 
