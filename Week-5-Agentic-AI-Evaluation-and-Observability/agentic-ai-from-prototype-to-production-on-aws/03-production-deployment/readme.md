@@ -1,7 +1,5 @@
 # Production Architecture
 
-## [Production Architecture](https://catalog.us-east-1.prod.workshops.aws/event/dashboard/en-US/workshop/13-module-3#production-architecture)
-
 ```text
 ┌────────────┐     JWT Token      ┌─────────────────────────────────────┐
 │  Streamlit │ ──────────────────►│  AgentCore Runtime                  │
