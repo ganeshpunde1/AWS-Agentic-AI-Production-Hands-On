@@ -1,8 +1,8 @@
 # Agentic AI Observability on AWS
 
-## Amazon Bedrock AgentCore
-## Amazon CloudWatch GenAI Observability
-## Third-Party Observability Tools
+##1. Amazon Bedrock AgentCore Observability
+##2. Amazon CloudWatch GenAI Observability
+##3. Third-Party Observability Tools
 - DataDog
 - Dynatrace
 - LangSmith
