@@ -1,4 +1,4 @@
-# AWS AI Governance Quiz — 20 Unique Questions
+# AWS AI Governance Quiz 
 
 ## Question 1 of 20
 
